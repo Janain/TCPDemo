@@ -29,6 +29,7 @@ import jason.tcpdemo.coms.TcpClient;
  */
 
 public class FuncTcpClient extends Activity {
+
     private String TAG = "FuncTcpClient";
     @SuppressLint("StaticFieldLeak")
     public static Context context ;
@@ -126,7 +127,7 @@ public class FuncTcpClient extends Activity {
 
     private int getPort(String msg){
         if (msg.equals("")){
-            msg = "1234";
+            msg = "12306";
         }
         return Integer.parseInt(msg);
     }

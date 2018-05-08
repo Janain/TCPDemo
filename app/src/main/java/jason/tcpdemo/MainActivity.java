@@ -80,5 +80,7 @@ public class MainActivity extends Activity {
         radioBtnClient.setOnCheckedChangeListener(myRadioButtonCheck);
         radioBtnServer.setOnCheckedChangeListener(myRadioButtonCheck);
         btnFuncEnsure.setOnClickListener(myButtonClick);
+
     }
+
 }

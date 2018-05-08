@@ -134,7 +134,7 @@ public class FuncTcpServer extends Activity {
 
     private int getHost(String msg){
         if (msg.equals("")){
-            msg = "1234";
+            msg = "12306";
         }
         return Integer.parseInt(msg);
     }

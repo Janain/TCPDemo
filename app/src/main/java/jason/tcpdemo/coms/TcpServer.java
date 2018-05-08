@@ -22,7 +22,7 @@ import jason.tcpdemo.funcs.FuncTcpServer;
 
 public class TcpServer implements Runnable{
     private String TAG = "TcpServer";
-    private int port = 1234;
+    private int port = 12306;
     private boolean isListen = true;   //线程监听标志位
     public ArrayList<ServerSocketThread> SST = new ArrayList<ServerSocketThread>();
     public TcpServer(int port){

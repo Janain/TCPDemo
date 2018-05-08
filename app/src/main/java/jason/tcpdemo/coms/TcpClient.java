@@ -23,7 +23,7 @@ import jason.tcpdemo.funcs.FuncTcpServer;
 public class TcpClient implements Runnable{
     private String TAG = "TcpClient";
     private String  serverIP = "10.1.1.251";
-    private int serverPort = 1234;
+    private int serverPort = 12306;
     private PrintWriter pw;
     private InputStream is;
     private DataInputStream dis;
